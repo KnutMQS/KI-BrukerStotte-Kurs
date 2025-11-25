@@ -2,7 +2,7 @@ function Cons() {
   return (
     <>
       <div className="flex items-center justify-center text-3xl py-4">
-        <h1>Fordeler med KI</h1>
+        <h1>Ulemper med KI</h1>
       </div>
       <div className="space-y-7">
         <ul className="max-w-fit mx-auto border-2 rounded-4xl bg-indigo-950 border-indigo-600 p-4">
