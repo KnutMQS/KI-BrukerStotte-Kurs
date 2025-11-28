@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import Home from "./pages/home";
 import Pros from "./pages/pros";
@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/KI-BrukerStotte-Oppg">
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
