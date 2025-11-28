@@ -18,17 +18,14 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/KI-BrukerStotte-Oppg">
       <Header />
       <Routes>
-        <Route path="/KI-BrukerStotte-Oppg/" element={<Home />} />
-        <Route path="/KI-BrukerStotte-Oppg/pros" element={<Pros />} />
-        <Route path="/KI-BrukerStotte-Oppg/cons" element={<Cons />} />
-        <Route path="/KI-BrukerStotte-Oppg/society" element={<Society />} />
-        <Route
-          path="/KI-BrukerStotte-Oppg/it-industry"
-          element={<ItIndustry />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/pros" element={<Pros />} />
+        <Route path="/cons" element={<Cons />} />
+        <Route path="/society" element={<Society />} />
+        <Route path="/it-industry" element={<ItIndustry />} />
       </Routes>
     </Router>
   );
